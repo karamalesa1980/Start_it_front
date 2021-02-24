@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/start-it-front/static/css/main.e05d83d4.chunk.css",
+    "main.js": "/start-it-front/static/js/main.2d6a4f88.chunk.js",
+    "main.js.map": "/start-it-front/static/js/main.2d6a4f88.chunk.js.map",
+    "runtime-main.js": "/start-it-front/static/js/runtime-main.628a9da3.js",
+    "runtime-main.js.map": "/start-it-front/static/js/runtime-main.628a9da3.js.map",
+    "static/css/2.0610e4b0.chunk.css": "/start-it-front/static/css/2.0610e4b0.chunk.css",
+    "static/js/2.201643d9.chunk.js": "/start-it-front/static/js/2.201643d9.chunk.js",
+    "static/js/2.201643d9.chunk.js.map": "/start-it-front/static/js/2.201643d9.chunk.js.map",
+    "static/js/3.ce16d114.chunk.js": "/start-it-front/static/js/3.ce16d114.chunk.js",
+    "static/js/3.ce16d114.chunk.js.map": "/start-it-front/static/js/3.ce16d114.chunk.js.map",
+    "index.html": "/start-it-front/index.html",
+    "static/css/2.0610e4b0.chunk.css.map": "/start-it-front/static/css/2.0610e4b0.chunk.css.map",
+    "static/css/main.e05d83d4.chunk.css.map": "/start-it-front/static/css/main.e05d83d4.chunk.css.map",
+    "static/js/2.201643d9.chunk.js.LICENSE.txt": "/start-it-front/static/js/2.201643d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.628a9da3.js",
+    "static/css/2.0610e4b0.chunk.css",
+    "static/js/2.201643d9.chunk.js",
+    "static/css/main.e05d83d4.chunk.css",
+    "static/js/main.2d6a4f88.chunk.js"
+  ]
+}
