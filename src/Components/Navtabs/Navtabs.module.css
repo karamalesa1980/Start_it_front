@@ -1,0 +1,15 @@
+.tab {
+    padding: 0 20px;
+}
+
+@media (min-width: 376px) {
+
+}
+@media (min-width: 769px) {
+  .tab.hidden {
+    display: none;
+  }
+}
+@media (min-width: 1281px) {
+
+}
