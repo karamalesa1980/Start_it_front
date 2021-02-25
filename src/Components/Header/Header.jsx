@@ -22,7 +22,7 @@ const Header = () => {
 							<Nav.Link><Link to="/start-it-front/feedback">Feedback</Link></Nav.Link>
 					</Nav>
 					<Nav>
-						<B><Link to="/start-it-front/login">Sign in</Link></B>
+						<Nav.Link><Link to="/start-it-front/login">Sign in</Link></Nav.Link>
 						<Nav.Link><Link to="/start-it-front/join" className="navJoin">Sign up</Link></Nav.Link>
 					</Nav>
 					</Navbar.Collapse>
