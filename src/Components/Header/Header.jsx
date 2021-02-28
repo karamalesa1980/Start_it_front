@@ -1,40 +1,36 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
+import classes from './Header.module.css';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  { faStar }  from '@fortawesome/free-regular-svg-icons';
-import './Header.module.css';
+import { faStar } from '@fortawesome/free-regular-svg-icons';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 const farStar = <FontAwesomeIcon icon={faStar} />
 
 const Header = () => {
-	return (
-		<header className="navBg">
-			<div className="content-wrapper">
-				<Navbar collapseOnSelect expand="sm" variant="light">    
-				<Navbar.Brand><Link to="/start-it-front" className="navLogo">{farStar} Star It</Link></Navbar.Brand>
-				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-					<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="mr-auto">
-							<Nav.Link><Link to="/start-it-front/pricing">Pricing</Link></Nav.Link>
-							<Nav.Link><Link to="/start-it-front/team">Team</Link></Nav.Link>
-							<Nav.Link><Link to="/start-it-front/feedback">Feedback</Link></Nav.Link>
-					</Nav>
-					<Nav>
-						<Nav.Link><Link to="/start-it-front/login">Sign in</Link></Nav.Link>
-						<Nav.Link><Link to="/start-it-front/join" className="navJoin">Sign up</Link></Nav.Link>
-					</Nav>
-					</Navbar.Collapse>
-				</Navbar>
-			</div>    
-		</header>
-			
-	);
+    return (
+        <header className={classes.nav_bg}>
+            <div className="content-wrapper">
+                <Navbar collapseOnSelect expand="sm" variant="light">    
+                    <Navbar.Brand href="/start-it-front" className={classes.nav_logo}>{farStar} Star It</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <NavLink className={classes.Link} to="/start-it-front/pricing" activeClassName={classes.activeLink}>Pricing</NavLink>
+                            <NavLink className={classes.Link} to="/start-it-front/team" activeClassName={classes.activeLink}>Team</NavLink>
+                            <NavLink className={classes.Link} to="/start-it-front/feedback" activeClassName={classes.activeLink}>Feedback</NavLink>
+                            <NavLink className={classes.Link} to="/start-it-front/dashboard" activeClassName={classes.activeLink}>Dashboard</NavLink>
+                        </Nav>
+                        <Nav>
+                            <NavLink className={classes.Link} to="/start-it-front/login" activeClassName={classes.activeLink}>Sign in</NavLink>
+                            <NavLink className={classes.Link} to="/start-it-front/join" activeClassName={classes.activeLink}>Sign up</NavLink>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </div>    
+        </header>
+    );
 }
 
 export default Header;
-
-
-
-

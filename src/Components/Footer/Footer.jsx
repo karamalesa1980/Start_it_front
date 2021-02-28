@@ -8,11 +8,11 @@ const Footer = () => {
                 <footer className="content-wrapper">
                     <div className={classes.color}>
                         <a href="https://starit.ua">Star IT </a>
-                        <span>&copy; 2021 Creative Team.</span>
+                        <span>&copy; 2021 Creative Team</span>
                     </div>
                     <div className={classes.color}>
                         <span>Powered by</span>
-                        <a href="https://coreui.io"> BestApp</a>
+                        <a href="/"> BestApp</a>
                     </div>
                 </footer>
             </div>
